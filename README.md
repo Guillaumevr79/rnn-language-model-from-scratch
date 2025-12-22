@@ -1,6 +1,6 @@
 # RNN Language Model From Scratch
 
-Implémentation pédagogique d'un **modèle de langage basé sur un RNN (Recurrent Neural Network)** en NumPy pur, sans utiliser de frameworks de deep learning.
+Implémentation d'un **modèle de langage basé sur un RNN (Recurrent Neural Network)** en NumPy pur, sans utiliser de frameworks de deep learning.
 
 Ce projet démontre les concepts fondamentaux des réseaux de neurones récurrents : propagation temporelle, backpropagation through time (BPTT), et prédiction de séquences.
 
