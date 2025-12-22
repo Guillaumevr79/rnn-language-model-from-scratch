@@ -1,6 +1,6 @@
 # RNN Language Model From Scratch
 
-Implémentation d'un **modèle de langage basé sur un RNN (Recurrent Neural Network)** en NumPy pur, sans utiliser de frameworks de deep learning.
+Implémentation pédagogique d'un **modèle de langage basé sur un RNN (Recurrent Neural Network)** en NumPy pur, sans utiliser de frameworks de deep learning.
 
 Ce projet démontre les concepts fondamentaux des réseaux de neurones récurrents : propagation temporelle, backpropagation through time (BPTT), et prédiction de séquences.
 
@@ -100,7 +100,6 @@ Après 'le chat mange du poisson', top 5 prédictions :
 | Fichier | Description |
 |---------|-------------|
 | [`RNNLanguageModel.ipynb`](RNNLanguageModel.ipynb) | Notebook principal avec implémentation et démonstrations |
-| `LSTMLanguageModel.ipynb` | Extension avec architecture LSTM (optionnel) |
 | `README.md` | Ce fichier |
 
 ## Concepts implémentés
@@ -142,7 +141,7 @@ Le modèle atteint de bonnes performances sur un petit corpus :
 - **Gradient vanishing** : Sur de très longues séquences, les gradients peuvent s'effacer
 - **NumPy uniquement** : Performance limitée comparé à des frameworks optimisés
 
-Pour dépasser ces limitations, voir l'implémentation LSTM dans [`LSTMLanguageModel.ipynb`](LSTMLanguageModel.ipynb).
+Pour dépasser ces limitations, il faudrait implémenter des architectures plus avancées (LSTM, GRU) ou utiliser des frameworks modernes.
 
 ## Concepts clés pour apprendre
 
